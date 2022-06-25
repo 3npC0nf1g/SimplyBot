@@ -50,15 +50,15 @@ function test() {
 
 	do {
 
-	 answer = Number(input());
+	  answer = Number(input());
 
-	if(answer !== 2 ){
+	  if(answer !== 2 ){
 
-		console.log("Please, try again.");
+	    console.log("Please, try again.");
 
-	}
+	  }
 
-} while(answer !== 2 );
+         } while(answer !== 2 );
 
 }
 
